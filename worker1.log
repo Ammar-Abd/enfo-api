@@ -1,0 +1,153 @@
+nohup: ignoring input
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+------------------------------------------------------------------------------
+You have loaded plyr after dplyr - this is likely to cause problems.
+If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
+library(plyr); library(dplyr)
+------------------------------------------------------------------------------
+
+Attaching package: ‘plyr’
+
+The following objects are masked from ‘package:dplyr’:
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Loading required package: ggplot2
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following objects are masked from ‘package:plyr’:
+
+    arrange, mutate, rename, summarise
+
+The following object is masked from ‘package:httr’:
+
+    config
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:data.table’:
+
+    yearmon, yearqtr
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+######################### Warning from 'xts' package ##########################
+#                                                                             #
+# The dplyr lag() function breaks how base R's lag() function is supposed to  #
+# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #
+# source() into this session won't work correctly.                            #
+#                                                                             #
+# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #
+# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #
+# dplyr from breaking base R's lag() function.                                #
+#                                                                             #
+# Code in packages is not affected. It's protected by R's namespace mechanism #
+# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #
+#                                                                             #
+###############################################################################
+
+Attaching package: ‘xts’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, last
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, last
+
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 methods overwritten by 'forecast':
+  method  from 
+  head.ts stats
+  tail.ts stats
+Linking to: OpenSSL 3.0.2 15 Mar 2022
+
+Attaching package: ‘digest’
+
+The following object is masked from ‘package:openssl’:
+
+    sha1
+
+Loading required package: DBI
+
+Attaching package: ‘tidyr’
+
+The following object is masked from ‘package:magrittr’:
+
+    extract
+
+
+Attaching package: ‘rvest’
+
+The following object is masked from ‘package:plumber’:
+
+    forward
+
+Linking to ImageMagick 6.9.11.60
+Enabled features: fontconfig, freetype, fftw, heic, lcms, pango, webp, x11
+Disabled features: cairo, ghostscript, raw, rsvg
+Using 32 threads
+Running plumber API at http://127.0.0.1:8001
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Argument of class NULL cannot be used to set default value in OpenAPI Specifications.
+Running swagger Docs at http://127.0.0.1:8001/__docs__/
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: <Anonymous> ... <Anonymous> -> startServer -> <Anonymous> -> initialize
+Execution halted
